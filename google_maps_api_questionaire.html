@@ -33,16 +33,7 @@ M.yui.loader = {modules: {}};
 
 </script>
 
-<!-- 
-Test by Joshua David, Tseng College 
-Prevents the duplication of Turnitin assignments
-Also prevents restoring a turnitin assignment from a previous course into a new course.
 
-If you have any questions, email me at 
-joshua.david.723@my.csun.edu
-
-BEGIN
--->
 <script>
 "use strict";
 
@@ -60,19 +51,14 @@ function removeElement(htmlElement) {
     }
 }
 
-/**
- * I may want to flesh this out a bit.
- */
-function selectByCSS(selector) {
-    /* Shorthand for document.querySelectorAll */
 
-    /* Since this is supported on 93% of browsers, I think this is an acceptable shortcut */
+function selectByCSS(selector) {
+
     if(!document.querySelectorAll) {
         return [];
     } else {
         try {
             var matches = document.querySelectorAll(selector);
-            /* I personally like the array methods, let's make them usable... */
             return Array.prototype.slice.call(matches);
         } catch(e) {
             return [];
@@ -87,7 +73,6 @@ function removeModButtonsOnActivityType(action, activityType) {
     if(!activityType) return false;
     if(!action) return false;
 
-    /* Use a CSS selector to grab these -- much easier than crawling the DOM */
     var selector = ".modtype_" + activityType + " .editing_" + action;
     var matchingButtons = selectByCSS(selector);
 
@@ -117,7 +102,6 @@ function removeParentOfMatchingElement(selector, parentFilter) {
 }
 
 function preventRestoreOfActivityType(activityType) {
-    /* We only really care if we're on the restore page... */
     if(!window.location.toString().match(/restore\.php/g)) return;
 
     var selector = 'td.modulename img[title*="' + activityType + '"]';
@@ -134,7 +118,6 @@ function preventRestoreOfActivityType(activityType) {
 }
 
 function preventImportOfActivityType(activityType) {
-    /* We only really care if we're on the import page... */
     if(!window.location.toString().match(/import\.php/g)) return;
 
     var selector = '.grouped_settings.activity_level img[title*="' + activityType + '"]';
@@ -144,9 +127,6 @@ function preventImportOfActivityType(activityType) {
 </script>
 <script>
 try {
-/* The above script loads the definitions, and this script lets you
- * choose your options.
- */
 window.addEventListener("load", function() {
     removeModButtonsOnActivityType("duplicate", "turnitintool");
     removeModButtonsOnActivityType("duplicate", "elluminate");
