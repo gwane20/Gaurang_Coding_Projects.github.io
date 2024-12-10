@@ -1,0 +1,5 @@
+C:\Users\Gaurang\Documents\C# Calculator\Test Calculator\obj\Debug\net9.0\Test Calculator.csproj.AssemblyReference.cache
+C:\Users\Gaurang\Documents\C# Calculator\Test Calculator\obj\Debug\net9.0\Test Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gaurang\Documents\C# Calculator\Test Calculator\obj\Debug\net9.0\Test Calculator.AssemblyInfoInputs.cache
+C:\Users\Gaurang\Documents\C# Calculator\Test Calculator\obj\Debug\net9.0\Test Calculator.AssemblyInfo.cs
+C:\Users\Gaurang\Documents\C# Calculator\Test Calculator\obj\Debug\net9.0\Test Calculator.csproj.CoreCompileInputs.cache

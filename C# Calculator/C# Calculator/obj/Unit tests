@@ -1,0 +1,78 @@
+using NUnit.Framework;
+
+namespace CalculatorTests
+{
+    [TestFixture]
+    public class CalculatorTests
+    {
+        private Calculator calculator;
+
+        [SetUp]
+        public void Setup()
+        {
+            calculator = new Calculator();
+        }
+
+        [Test]
+        public void TestAddition_ValidInputs_ReturnsCorrectResult()
+        {
+            double result = calculator.Add(5, 3);
+            Assert.AreEqual(8, result);
+        }
+
+        [Test]
+        public void TestSubtraction_ValidInputs_ReturnsCorrectResult()
+        {
+            double result = calculator.Subtract(10, 4);
+            Assert.AreEqual(6, result);
+        }
+
+        [Test]
+        public void TestMultiplication_ValidInputs_ReturnsCorrectResult()
+        {
+            double result = calculator.Multiply(6, 7);
+            Assert.AreEqual(42, result);
+        }
+
+        [Test]
+        public void TestDivision_ValidInputs_ReturnsCorrectResult()
+        {
+            double result = calculator.Divide(15, 3);
+            Assert.AreEqual(5, result);
+        }
+
+        [Test]
+        public void TestDivision_DivisionByZero_ThrowsException()
+        {
+            Assert.Throws<System.DivideByZeroException>(() => calculator.Divide(10, 0));
+        }
+    }
+
+    // Mock implementation of the Calculator class for testing purposes
+    public class Calculator
+    {
+        public double Add(double num1, double num2)
+        {
+            return num1 + num2;
+        }
+
+        public double Subtract(double num1, double num2)
+        {
+            return num1 - num2;
+        }
+
+        public double Multiply(double num1, double num2)
+        {
+            return num1 * num2;
+        }
+
+        public double Divide(double num1, double num2)
+        {
+            if (num2 == 0)
+            {
+                throw new System.DivideByZeroException("Cannot divide by zero");
+            }
+            return num1 / num2;
+        }
+    }
+}
