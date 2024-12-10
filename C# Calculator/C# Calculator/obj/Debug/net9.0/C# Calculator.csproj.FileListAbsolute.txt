@@ -1,0 +1,20 @@
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\bin\Debug\net9.0\C# Calculator.exe
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\bin\Debug\net9.0\C# Calculator.deps.json
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\bin\Debug\net9.0\C# Calculator.runtimeconfig.json
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\bin\Debug\net9.0\C# Calculator.dll
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\bin\Debug\net9.0\C# Calculator.pdb
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\obj\Debug\net9.0\C# Calculator.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\obj\Debug\net9.0\C# Calculator.AssemblyInfoInputs.cache
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\obj\Debug\net9.0\C# Calculator.AssemblyInfo.cs
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\obj\Debug\net9.0\C# Calculator.csproj.CoreCompileInputs.cache
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\obj\Debug\net9.0\C# Calculator.dll
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\obj\Debug\net9.0\refint\C# Calculator.dll
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\obj\Debug\net9.0\C# Calculator.pdb
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\obj\Debug\net9.0\C# Calculator.genruntimeconfig.cache
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\obj\Debug\net9.0\ref\C# Calculator.dll
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\bin\Debug\net9.0\NUnit3.TestAdapter.dll
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\bin\Debug\net9.0\NUnit3.TestAdapter.pdb
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\bin\Debug\net9.0\nunit.engine.dll
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\bin\Debug\net9.0\nunit.engine.api.dll
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\bin\Debug\net9.0\nunit.engine.core.dll
+c:\Users\Gaurang\Documents\C# Calculator\C# Calculator\bin\Debug\net9.0\testcentric.engine.metadata.dll

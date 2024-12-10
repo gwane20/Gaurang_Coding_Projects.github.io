@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+57lW9xVJcM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gaurang\\Documents\\C# Calculator\\C# Calculator\\C# Calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gaurang\\.nuget\\packages\\nunit3testadapter\\4.6.0\\nunit3testadapter.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
