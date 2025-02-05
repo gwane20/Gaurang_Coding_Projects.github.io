@@ -1,0 +1,15 @@
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\bin\Debug\net9.0\Calculator.exe
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\bin\Debug\net9.0\Calculator.deps.json
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\bin\Debug\net9.0\Calculator.runtimeconfig.json
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\bin\Debug\net9.0\Calculator.dll
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\bin\Debug\net9.0\Calculator.pdb
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\obj\Debug\net9.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\obj\Debug\net9.0\Calculator.AssemblyInfoInputs.cache
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\obj\Debug\net9.0\Calculator.AssemblyInfo.cs
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\obj\Debug\net9.0\Calculator.csproj.CoreCompileInputs.cache
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\obj\Debug\net9.0\Calculator.sourcelink.json
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\obj\Debug\net9.0\Calculator.dll
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\obj\Debug\net9.0\refint\Calculator.dll
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\obj\Debug\net9.0\Calculator.pdb
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\obj\Debug\net9.0\Calculator.genruntimeconfig.cache
+c:\Users\Gaurang Wanere\Documents\C#_Calculator\Calculator\obj\Debug\net9.0\ref\Calculator.dll
